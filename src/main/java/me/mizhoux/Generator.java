@@ -27,5 +27,6 @@ public class Generator {
 
         MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
         myBatisGenerator.generate(null);
+        System.out.println("生成完毕！");
     }
 }
